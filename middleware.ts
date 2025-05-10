@@ -1,4 +1,4 @@
-import { withClerkMiddleware } from '@clerk/nextjs/server';
+import { withClerkMiddleware } from '@clerk/nextjs';
 import { NextResponse } from 'next/server';
 
 export default withClerkMiddleware(() => {
